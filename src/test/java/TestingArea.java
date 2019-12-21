@@ -24,7 +24,7 @@ public class TestingArea {
         HomePage homePage = new HomePage(driver);
 
         loginPage.setLogin("snxchyan2014@mail.ru");
-        loginPage.setPassword("xdrxalo");
+        loginPage.setPassword("password");
         loginPage.clickButton();
 
         homePage.clickMessengerButton();
