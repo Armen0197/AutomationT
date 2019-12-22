@@ -3,13 +3,15 @@ package com.automation_testing.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import com.automation_testing.helpers.WaitHelpers;
+
 
 public class HomePage extends BasePage {
 
     public HomePage(WebDriver driver) {
         super(driver);
     }
-
+//todo copy css selectors is not the best solution check how to handle css selectors
     @FindBy(css = "div.l9j0dhe7[aria-label=\"Messenger\"]")
     private WebElement messenger_button;
 
@@ -32,22 +34,23 @@ public class HomePage extends BasePage {
     private WebElement like_button;
 
     public void clickMessengerButton() {
-        com.automation_testing.helpers.WaitHelpers.waitForElementToBeClickable(this.driver, messenger_button);
+        // todo you can import this class into object and call it by className
+        WaitHelpers.waitForElementToBeClickable(this.driver, messenger_button);
         messenger_button.click();
     }
 
     public void clickOnFriendName() {
-        com.automation_testing.helpers.WaitHelpers.waitForElementToBeClickable(this.driver, find_friend);
+        WaitHelpers.waitForElementToBeClickable(this.driver, find_friend);
         find_friend.click();
     }
 
     public void clickOnSmile() {
-        com.automation_testing.helpers.WaitHelpers.waitForElementToBeClickable(this.driver, smile_button);
+        WaitHelpers.waitForElementToBeClickable(this.driver, smile_button);
        smile_button.click();
     }
 
     public void likeButtonClick() {
-        com.automation_testing.helpers.WaitHelpers.waitForElementToBeClickable(this.driver, like_button);
+        WaitHelpers.waitForElementToBeClickable(this.driver, like_button);
         like_button.click();
     }
 }
