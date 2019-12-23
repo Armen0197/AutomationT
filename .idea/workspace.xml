@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3bfa24e-0484-44f3-a4b2-a74c5f72c0a3" name="Default Changelist" comment="" />
+    <list default="true" id="f3bfa24e-0484-44f3-a4b2-a74c5f72c0a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation_testing/pages/ChatWith_A_Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation_testing/pages/FriendList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing_dir/BaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing_dir/TestingArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/AutomationTesting.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automation_testing/pages/ChatWith_A_Friend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automation_testing/pages/FriendList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/AutomationTesting.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/testing_dir/BaseTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/testing_dir/TestingArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation_testing/helpers/WaitHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation_testing/helpers/WaitHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation_testing/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation_testing/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation_testing/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation_testing/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation_testing/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation_testing/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestingArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation_testing/helpers/WaitHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation_testing/helpers/WaitHelpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation_testing/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation_testing/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation_testing/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation_testing/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation_testing/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation_testing/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestingArea.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +38,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,13 +57,43 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestingArea.facebook_test">
+    <configuration name="TestingArea" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="com.testing_dir.TestingArea" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestingArea.facebook_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTesting" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestingArea" />
+      <option name="MAIN_CLASS_NAME" value="com.testing_dir.TestingArea" />
       <option name="METHOD_NAME" value="facebook_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingArea.facebook_test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testing_dir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testing_dir" />
+      <option name="MAIN_CLASS_NAME" value="com.testing_dir.TestingArea" />
+      <option name="METHOD_NAME" value="facebook_test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -46,6 +104,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestingArea.facebook_test" />
+        <item itemvalue="TestNG.TestingArea.facebook_test2" />
+        <item itemvalue="TestNG.TestingArea" />
       </list>
     </recent_temporary>
   </component>
@@ -75,25 +135,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1576958810045">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1577039077546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1576958810045" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1576961236376">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577039077546" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1577127172303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576961236376" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1576961236376">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577127172303" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1577127172303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576961236376" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1576961236375">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577127172303" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1577127172303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576961236375" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1576961236376">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577127172303" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1577127172303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576961236376" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577127172303" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577036833243">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1577036833243" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577127778557">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577127778557" />
   </component>
 </project>

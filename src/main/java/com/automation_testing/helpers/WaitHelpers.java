@@ -20,7 +20,6 @@ public class WaitHelpers {
         }
     }
 
-    // Not used
     public static void waitForVisibilityOfElement(WebDriver driver, WebElement element) {
         try {
             WebDriverWait wait = new WebDriverWait(driver, TIMEOUT);
