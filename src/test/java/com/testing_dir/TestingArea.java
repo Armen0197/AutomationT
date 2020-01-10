@@ -16,7 +16,7 @@ public class TestingArea extends BaseTests {
         FriendList friendList = new FriendList(driver);
         ChatWith_A_Friend chatWith_a_friend = new ChatWith_A_Friend(driver);
 
-        loginPage.getLogin("snxchyan2014@mail.ru");
+        loginPage.getLogin("email.com");
         loginPage.getPassword("*******");
         loginPage.clickButton();
 
